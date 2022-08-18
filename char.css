@@ -1,5 +1,9 @@
 body{
    background-image: url(https://www.ungeek.ph/wp-content/uploads/2021/08/Genshin_Impact_Concert.jpg);
-   background-size: cover;
+   background-size: 1270px;
    background-repeat: no-repeat;
+}
+html{
+   height: 420px;
+   width: 740px;
 }

@@ -1,0 +1,40 @@
+body{
+    background-image: url(img/raidenbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+
+}
+ul#info li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 50px;
+    
+    
+
+}
+ul li{
+    list-style: none;
+}
+#cungmenh{
+    height: auto;
+    width: auto;
+    position: absolute;
+    bottom: 250px;
+    right: 80px;
+}
+#vukhi{
+    height: auto;
+    width: auto;
+    position: absolute;
+    bottom: 350px;
+    right: 80px;
+}
+#thongtin{
+    height: auto;
+    width: auto;
+    position: absolute;
+    right: 80px;
+    bottom: 450px;
+}
+
