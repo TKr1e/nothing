@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    text-align: center;
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lienhe {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    overflow: hidden;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.lienhe:hover {
+    color: rgb(163, 163, 163);
+}
+
+.info {
+    font-family: 'Poiret One', cursive;
+    margin: 10px;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: none;
+    bottom: 100px;
+
+}
+
+.info {
+    cursor: default;
+}
+
+.icon {
+    opacity: 0.85;
+    margin: auto;
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top: auto;
+    border-radius: 50%;
+    width: auto;
+    transition: width 2s, height 2s, transform 2.5s;
+}
+
+.icon:hover {
+    opacity: 0.2;
+    transform: rotate(180deg);
+}
+
+.icon {
+    cursor: help;
+}
+
+.music {
+    opacity: 0.2;
+    border-radius: 5%;
+    display: block;
+}
+
+.music:hover {
+    opacity: 0.6
+}
