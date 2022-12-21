@@ -1,10 +1,12 @@
 body {
     background-color: black;
     text-align: center;
-    background: url(bg.jpg);
+    background: url(a3f3492bbb6072664c72d3df58ab20c4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 .lienhe {
     text-align: center;
@@ -66,4 +68,17 @@ body {
 
 .music:hover {
     opacity: 0.6
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background: url(85b5976bdbfea6eef0e3bef9b62b43f5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .music {
+        display: none;
+    }
+
 }
