@@ -1,7 +1,7 @@
 body {
     background-color: black;
     text-align: center;
-    background: url(a3f3492bbb6072664c72d3df58ab20c4.jpg);
+    background: url(digital-art-space-art-space-planet-wallpaper-58d6ad28a080bc7840ccc11e586204aa.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -10,18 +10,19 @@ body {
 
 .lienhe {
     text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-size: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
     margin: 0 auto;
     display: inline-block;
     overflow: hidden;
     padding: 10px;
     color: whitesmoke;
     text-decoration: none;
+    transition: opacity 1s;
 }
 
 .lienhe:hover {
-    color: rgb(163, 163, 163);
+    opacity: 0.2;
 }
 
 .info {
@@ -31,6 +32,7 @@ body {
     text-align: center;
     text-decoration: none;
     bottom: 100px;
+    opacity: 1;
 
 }
 
@@ -45,15 +47,13 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    top: auto;
     border-radius: 50%;
-    width: auto;
-    transition: width 2s, height 2s, transform 2.5s;
+    transition: width 2s, height 2s, transform 3.0s, opacity 1s;
 }
 
 .icon:hover {
     opacity: 0.2;
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 
 .icon {
@@ -61,9 +61,13 @@ body {
 }
 
 .music {
+    position: relative;
+    right: -945px;
+    top: 120px;
     opacity: 0.2;
     border-radius: 5%;
     display: block;
+    transition: opacity 0.5s;
 }
 
 .music:hover {
@@ -72,13 +76,18 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
+        background-color: black;
         background: url(85b5976bdbfea6eef0e3bef9b62b43f5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .music {
-        display: none;
+        height: 200px;
+        width: 50%;
+        size: 1%;
+        right: -91px;
+        top: 50px;
     }
 
 }
