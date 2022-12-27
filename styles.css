@@ -1,7 +1,7 @@
 body {
     background-color: black;
     text-align: center;
-    background: url(digital-art-space-art-space-planet-wallpaper-58d6ad28a080bc7840ccc11e586204aa.jpg);
+    background: url(563119.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9,6 +9,7 @@ body {
 
 
 .lienhe {
+
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
@@ -18,7 +19,7 @@ body {
     padding: 10px;
     color: whitesmoke;
     text-decoration: none;
-    transition: opacity 1s;
+    transition: opacity 0.5s;
 }
 
 .lienhe:hover {
@@ -48,12 +49,11 @@ body {
     margin-right: auto;
     display: block;
     border-radius: 50%;
-    transition: width 2s, height 2s, transform 3.0s, opacity 1s;
+    transition: width 2s, height 2s, transform 3.0s, opacity 2s;
 }
 
 .icon:hover {
     opacity: 0.2;
-    transform: rotate(360deg);
 }
 
 .icon {
@@ -68,11 +68,30 @@ body {
     border-radius: 5%;
     display: block;
     transition: opacity 0.5s;
+    display: none;
 }
 
 .music:hover {
     opacity: 0.6
 }
+
+.cm {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: opacity 0.5s;
+    cursor: default;
+}
+
+.section::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+
 
 @media only screen and (max-width: 600px) {
     body {
@@ -89,5 +108,25 @@ body {
         right: -91px;
         top: 50px;
     }
+
+    .lienhe {
+        position: relative;
+        top: 20px;
+    }
+
+    .cm {
+        position: relative;
+        top: 20px;
+        text-align: center;
+        font-family: 'Poiret One', cursive;
+        margin: 0 auto;
+        display: inline-block;
+        overflow: hidden;
+        padding: 10px;
+        color: whitesmoke;
+        text-decoration: none;
+        transition: opacity 0.5s;
+    }
+
 
 }
