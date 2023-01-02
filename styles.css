@@ -1,15 +1,21 @@
 body {
     background-color: black;
     text-align: center;
-    background: url(563119.jpg);
+    background: url(ezgif-1-6533e16f19.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
+.logo {
+    position: relative;
+    right: -480px;
+    top: 180px;
+    width: 200px;
+    height: 200px;
+}
 
 .lienhe {
-
+    position: relative;
     text-align: center;
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
@@ -17,7 +23,8 @@ body {
     display: inline-block;
     overflow: hidden;
     padding: 10px;
-    color: whitesmoke;
+    color: black;
+    text-shadow: 2px 2px pink;
     text-decoration: none;
     transition: opacity 0.5s;
 }
@@ -29,7 +36,8 @@ body {
 .info {
     font-family: 'Poiret One', cursive;
     margin: 10px;
-    color: whitesmoke;
+    color: black;
+    text-shadow: 2px 2px pink;
     text-align: center;
     text-decoration: none;
     bottom: 100px;
@@ -42,7 +50,7 @@ body {
 }
 
 .icon {
-    opacity: 0.85;
+    opacity: 0.7;
     margin: auto;
     max-width: 120px;
     margin-left: auto;
@@ -53,7 +61,7 @@ body {
 }
 
 .icon:hover {
-    opacity: 0.2;
+    opacity: 0.05;
 }
 
 .icon {
@@ -62,13 +70,13 @@ body {
 
 .music {
     position: relative;
-    right: -945px;
-    top: 120px;
+    right: 550px;
+    top: 50px;
     opacity: 0.2;
     border-radius: 5%;
-    display: block;
     transition: opacity 0.5s;
     display: none;
+
 }
 
 .music:hover {
@@ -76,15 +84,17 @@ body {
 }
 
 .cm {
+    position: relative;
     text-align: center;
     font-family: 'Poiret One', cursive;
     margin: 0 auto;
     overflow: hidden;
     padding: 10px;
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
     transition: opacity 0.5s;
     cursor: default;
+    text-shadow: 2px 2px pink;
 }
 
 .section::-webkit-scrollbar-track {
@@ -96,10 +106,24 @@ body {
 @media only screen and (max-width: 600px) {
     body {
         background-color: black;
-        background: url(85b5976bdbfea6eef0e3bef9b62b43f5.jpg);
+        background: url(ezgif-5-7abb80a799.gif);
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .logo {
+        position: relative;
+        right: 0px;
+        top: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .info {
+        color: black;
+    }
+
 
     .music {
         height: 200px;
@@ -107,26 +131,32 @@ body {
         size: 1%;
         right: -91px;
         top: 50px;
+        display: none;
     }
 
     .lienhe {
         position: relative;
+        right: 0px;
         top: 20px;
     }
 
     .cm {
         position: relative;
-        top: 20px;
+        top: 50px;
         text-align: center;
         font-family: 'Poiret One', cursive;
         margin: 0 auto;
         display: inline-block;
         overflow: hidden;
         padding: 10px;
-        color: whitesmoke;
+        color: black;
         text-decoration: none;
         transition: opacity 0.5s;
+        font-size: 25px;
     }
 
-
+    .icon {
+        position: relative;
+        top: 10px;
+    }
 }
