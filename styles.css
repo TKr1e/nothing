@@ -1,7 +1,7 @@
 body {
     background-color: black;
     text-align: center;
-    background: url(ezgif-1-6533e16f19.gif);
+    background: url(Fk_yd7YaEAEQQCH.jfif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,8 +23,7 @@ body {
     display: inline-block;
     overflow: hidden;
     padding: 10px;
-    color: black;
-    text-shadow: 2px 2px pink;
+    color: whitesmoke;
     text-decoration: none;
     transition: opacity 0.5s;
 }
@@ -36,8 +35,8 @@ body {
 .info {
     font-family: 'Poiret One', cursive;
     margin: 10px;
-    color: black;
-    text-shadow: 2px 2px pink;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
     text-align: center;
     text-decoration: none;
     bottom: 100px;
@@ -62,6 +61,8 @@ body {
 
 .icon:hover {
     opacity: 0.05;
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
 }
 
 .icon {
@@ -87,26 +88,66 @@ body {
     position: relative;
     text-align: center;
     font-family: 'Poiret One', cursive;
-    margin: 0 auto;
+    margin: 10px auto;
     overflow: hidden;
     padding: 10px;
-    color: black;
+    font-size: 17px;
+    color: whitesmoke;
     text-decoration: none;
     transition: opacity 0.5s;
     cursor: default;
-    text-shadow: 2px 2px pink;
+    text-shadow: 2px 2px black;
 }
 
 .section::-webkit-scrollbar-track {
     background-color: black;
 }
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+
+ul {
+    position: relative;
+    display: block;
+    font-family: 'Amatic SC', cursive;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  position: relative;
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin: 0px 0px auto;
+  transition: 0.5s ease;
+  text-shadow: 2px 2px black;
+}
+
+ul:hover li a {
+  color: whitesmoke;
+}
+
+ul:hover li a:not(:hover) {
+  color: rgb(255, 255, 255);
+  opacity: 0.3;
+  filter: blur(1px);
+}
 
 
 @media only screen and (max-width: 600px) {
     body {
         background-color: black;
-        background: url(ezgif-5-7abb80a799.gif);
+        background: url(ezgif-1-af28cbe425.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -117,11 +158,13 @@ body {
         top: 50px;
         width: 200px;
         height: 200px;
+        display: none;
     }
 
 
     .info {
-        color: black;
+        color: whitesmoke;
+        text-shadow: 2px 2px black;
     }
 
 
@@ -142,14 +185,15 @@ body {
 
     .cm {
         position: relative;
-        top: 50px;
+        top: 35px;
         text-align: center;
         font-family: 'Poiret One', cursive;
         margin: 0 auto;
         display: inline-block;
         overflow: hidden;
         padding: 10px;
-        color: black;
+        color: whitesmoke;
+        text-shadow: 2px 2px black;
         text-decoration: none;
         transition: opacity 0.5s;
         font-size: 25px;
@@ -157,6 +201,17 @@ body {
 
     .icon {
         position: relative;
-        top: 10px;
+        top: 20px;
     }
-}
+    ul li a {
+        position: relative;
+        top: 60px;
+        font-size: 35px;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: whitesmoke;
+        margin: 0px 0px auto;
+        transition: 0.5s ease;
+        text-shadow: 2px 2px black;
+      }
